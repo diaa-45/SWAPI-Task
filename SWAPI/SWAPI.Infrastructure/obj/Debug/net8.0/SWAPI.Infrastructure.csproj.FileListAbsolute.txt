@@ -1,0 +1,16 @@
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\bin\Debug\net8.0\SWAPI.Infrastructure.deps.json
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\bin\Debug\net8.0\SWAPI.Infrastructure.dll
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\bin\Debug\net8.0\SWAPI.Infrastructure.pdb
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\bin\Debug\net8.0\SWAPI.Core.dll
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\bin\Debug\net8.0\SWAPI.Core.pdb
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\obj\Debug\net8.0\SWAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\obj\Debug\net8.0\SWAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\obj\Debug\net8.0\SWAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\obj\Debug\net8.0\SWAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\obj\Debug\net8.0\SWAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\obj\Debug\net8.0\SWAPI.Infrastructure.sourcelink.json
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\obj\Debug\net8.0\SWAPI.In.DF279519.Up2Date
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\obj\Debug\net8.0\SWAPI.Infrastructure.dll
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\obj\Debug\net8.0\refint\SWAPI.Infrastructure.dll
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\obj\Debug\net8.0\SWAPI.Infrastructure.pdb
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.Infrastructure\obj\Debug\net8.0\ref\SWAPI.Infrastructure.dll

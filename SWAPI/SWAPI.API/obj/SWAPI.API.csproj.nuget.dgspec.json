@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.API\\SWAPI.API.csproj": {}
+    "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.API\\SWAPI.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.API\\SWAPI.API.csproj": {
+    "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.API\\SWAPI.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.API\\SWAPI.API.csproj",
+        "projectUniqueName": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.API\\SWAPI.API.csproj",
         "projectName": "SWAPI.API",
-        "projectPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.API\\SWAPI.API.csproj",
+        "projectPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.API\\SWAPI.API.csproj",
         "packagesPath": "C:\\Users\\deyaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.API\\obj\\",
+        "outputPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\deyaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,7 +28,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj": {
+                "projectPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj"
+              },
+              "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Infrastructure\\SWAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Infrastructure\\SWAPI.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -66,6 +73,150 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj",
+        "projectName": "SWAPI.Core",
+        "projectPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj",
+        "packagesPath": "C:\\Users\\deyaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deyaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Infrastructure\\SWAPI.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Infrastructure\\SWAPI.Infrastructure.csproj",
+        "projectName": "SWAPI.Infrastructure",
+        "projectPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Infrastructure\\SWAPI.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\deyaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deyaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj": {
+                "projectPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

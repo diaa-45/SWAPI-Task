@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SWAPI.API.props" />
+</Project>

@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D33DED10-509C-4322-A1EF-251F85862E91}|SWAPI.Core\\SWAPI.Core.csproj|c:\\users\\deyaa\\source\\repos\\swapi\\swapi.core\\services\\starshipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D33DED10-509C-4322-A1EF-251F85862E91}|SWAPI.Core\\SWAPI.Core.csproj|solutionrelative:swapi.core\\services\\starshipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C546D73F-BD4E-4AAB-B3EB-074DC4FEB7E0}|SWAPI.API\\SWAPI.API.csproj|c:\\users\\deyaa\\source\\repos\\swapi task\\swapi\\swapi.api\\controllers\\starshipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C546D73F-BD4E-4AAB-B3EB-074DC4FEB7E0}|SWAPI.API\\SWAPI.API.csproj|solutionrelative:swapi.api\\controllers\\starshipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F4D368-7A61-47F9-B05E-3A07C6693BF3}|SWAPI.Infrastructure\\SWAPI.Infrastructure.csproj|c:\\users\\deyaa\\source\\repos\\swapi task\\swapi\\swapi.infrastructure\\clients\\swapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F4D368-7A61-47F9-B05E-3A07C6693BF3}|SWAPI.Infrastructure\\SWAPI.Infrastructure.csproj|solutionrelative:swapi.infrastructure\\clients\\swapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F4D368-7A61-47F9-B05E-3A07C6693BF3}|SWAPI.Infrastructure\\SWAPI.Infrastructure.csproj|c:\\users\\deyaa\\source\\repos\\swapi task\\swapi\\swapi.infrastructure\\dependencyinjection\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F4D368-7A61-47F9-B05E-3A07C6693BF3}|SWAPI.Infrastructure\\SWAPI.Infrastructure.csproj|solutionrelative:swapi.infrastructure\\dependencyinjection\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D33DED10-509C-4322-A1EF-251F85862E91}|SWAPI.Core\\SWAPI.Core.csproj|c:\\users\\deyaa\\source\\repos\\swapi task\\swapi\\swapi.core\\interfaces\\iswapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D33DED10-509C-4322-A1EF-251F85862E91}|SWAPI.Core\\SWAPI.Core.csproj|solutionrelative:swapi.core\\interfaces\\iswapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +38,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StarshipService.cs",
-              "DocumentMoniker": "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.Core\\Services\\StarshipService.cs",
-              "RelativeDocumentMoniker": "SWAPI.Core\\Services\\StarshipService.cs",
-              "ToolTip": "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.Core\\Services\\StarshipService.cs",
-              "RelativeToolTip": "SWAPI.Core\\Services\\StarshipService.cs",
-              "ViewState": "AgIAAB4AAADAmJmZmZktwC0AAAAwAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "InfrastructureServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
+              "RelativeDocumentMoniker": "SWAPI.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
+              "RelativeToolTip": "SWAPI.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T13:32:34.527Z",
+              "WhenOpened": "2025-10-17T16:43:30Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISwapiClient.cs",
+              "DocumentMoniker": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\Interfaces\\ISwapiClient.cs",
+              "RelativeDocumentMoniker": "SWAPI.Core\\Interfaces\\ISwapiClient.cs",
+              "ToolTip": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\Interfaces\\ISwapiClient.cs",
+              "RelativeToolTip": "SWAPI.Core\\Interfaces\\ISwapiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T16:41:12.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StarshipsController.cs",
+              "DocumentMoniker": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.API\\Controllers\\StarshipsController.cs",
+              "RelativeDocumentMoniker": "SWAPI.API\\Controllers\\StarshipsController.cs",
+              "ToolTip": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.API\\Controllers\\StarshipsController.cs",
+              "RelativeToolTip": "SWAPI.API\\Controllers\\StarshipsController.cs",
+              "ViewState": "AgIAAA0AAAAAmZmZmZkdwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T16:38:13.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SwapiClient.cs",
+              "DocumentMoniker": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Infrastructure\\Clients\\SwapiClient.cs",
+              "RelativeDocumentMoniker": "SWAPI.Infrastructure\\Clients\\SwapiClient.cs",
+              "ToolTip": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Infrastructure\\Clients\\SwapiClient.cs",
+              "RelativeToolTip": "SWAPI.Infrastructure\\Clients\\SwapiClient.cs",
+              "ViewState": "AgIAAA8AAACYy8zMzMw0wBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T16:09:37.91Z",
               "EditorCaption": ""
             }
           ]

@@ -14,5 +14,6 @@ namespace SWAPI.Core.DTOs
         public string Manufacturer { get; set; } = string.Empty;
         public decimal? CostInCreditsNumeric { get; set; }
         public string CostDisplay { get; set; } = string.Empty;
+        public string Crew { get; set; } = string.Empty;
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj": {}
+    "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj": {
+    "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj",
+        "projectUniqueName": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj",
         "projectName": "SWAPI.Core",
-        "projectPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj",
+        "projectPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\SWAPI.Core.csproj",
         "packagesPath": "C:\\Users\\deyaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.Core\\obj\\",
+        "outputPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI Task\\SWAPI\\SWAPI.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\deyaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
