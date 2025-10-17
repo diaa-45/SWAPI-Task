@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\deyaa\\source\\repos\\SWAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D33DED10-509C-4322-A1EF-251F85862E91}|SWAPI.Core\\SWAPI.Core.csproj|c:\\users\\deyaa\\source\\repos\\swapi\\swapi.core\\services\\starshipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D33DED10-509C-4322-A1EF-251F85862E91}|SWAPI.Core\\SWAPI.Core.csproj|solutionrelative:swapi.core\\services\\starshipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StarshipService.cs",
+              "DocumentMoniker": "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.Core\\Services\\StarshipService.cs",
+              "RelativeDocumentMoniker": "SWAPI.Core\\Services\\StarshipService.cs",
+              "ToolTip": "C:\\Users\\deyaa\\source\\repos\\SWAPI\\SWAPI.Core\\Services\\StarshipService.cs",
+              "RelativeToolTip": "SWAPI.Core\\Services\\StarshipService.cs",
+              "ViewState": "AgIAAB4AAADAmJmZmZktwCYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T13:32:34.527Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

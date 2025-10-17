@@ -1,0 +1,11 @@
+C:\Users\deyaa\source\repos\SWAPI\SWAPI.Core\bin\Debug\net8.0\SWAPI.Core.deps.json
+C:\Users\deyaa\source\repos\SWAPI\SWAPI.Core\bin\Debug\net8.0\SWAPI.Core.dll
+C:\Users\deyaa\source\repos\SWAPI\SWAPI.Core\bin\Debug\net8.0\SWAPI.Core.pdb
+C:\Users\deyaa\source\repos\SWAPI\SWAPI.Core\obj\Debug\net8.0\SWAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deyaa\source\repos\SWAPI\SWAPI.Core\obj\Debug\net8.0\SWAPI.Core.AssemblyInfoInputs.cache
+C:\Users\deyaa\source\repos\SWAPI\SWAPI.Core\obj\Debug\net8.0\SWAPI.Core.AssemblyInfo.cs
+C:\Users\deyaa\source\repos\SWAPI\SWAPI.Core\obj\Debug\net8.0\SWAPI.Core.csproj.CoreCompileInputs.cache
+C:\Users\deyaa\source\repos\SWAPI\SWAPI.Core\obj\Debug\net8.0\SWAPI.Core.dll
+C:\Users\deyaa\source\repos\SWAPI\SWAPI.Core\obj\Debug\net8.0\refint\SWAPI.Core.dll
+C:\Users\deyaa\source\repos\SWAPI\SWAPI.Core\obj\Debug\net8.0\SWAPI.Core.pdb
+C:\Users\deyaa\source\repos\SWAPI\SWAPI.Core\obj\Debug\net8.0\ref\SWAPI.Core.dll
