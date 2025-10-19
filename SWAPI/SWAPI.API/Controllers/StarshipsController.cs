@@ -18,8 +18,8 @@ namespace SWAPI.API.Controllers
         public async Task<IActionResult> GetAllStarships()
         {
             var starships = await _swapiClient.GetStarshipsPageAsync();
-            Console.WriteLine(starships.Items);
-            return Ok(starships.Items);
+            return Ok(starships.ValidShips);
+            //return Ok(starships.FailedShips);
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetStarshipById(int id)
