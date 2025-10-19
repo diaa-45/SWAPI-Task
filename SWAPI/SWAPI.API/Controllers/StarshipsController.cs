@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SWAPI.Core.Interfaces;
+using SWAPI.Core.Services.Currency;
 
 namespace SWAPI.API.Controllers
 {
@@ -15,10 +16,35 @@ namespace SWAPI.API.Controllers
             _swapiClient = swapiClient;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAllStarships()
+        public async Task<IActionResult> GetAllStarships([FromQuery] string currency = "GC")
         {
             var starships = await _swapiClient.GetStarshipsPageAsync();
-            return Ok(starships.ValidShips);
+            var convertedStarships = new List<object>();
+            foreach (var ship in starships.ValidShips)
+            {
+                
+                ICurrencyConversionStrategy strategy = currency.ToUpper() switch
+                {
+                    "USD" => new UsdConversionStrategy(),
+                    "EUR" => new EurConversionStrategy(),
+                    _ => new GalacticCreditsStrategy()
+                };
+
+                
+                var converter = new CurrencyConverter(strategy);
+                decimal cost = 0;
+
+                if (!string.IsNullOrWhiteSpace(ship.cost_in_credits) && decimal.TryParse(ship.cost_in_credits, out var parsedCost))
+                {
+                    cost = parsedCost;
+                }
+
+                var convertedCost = converter.Convert(cost);
+                ship.cost_in_credits = convertedCost.ToString();
+                ship.Currency = converter.Symbol;
+                convertedStarships.Add(ship);
+            }
+            return Ok(convertedStarships);
             //return Ok(starships.FailedShips);
         }
         [HttpGet("{id}")]
