@@ -1,10 +1,5 @@
-C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\appsettings.json
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\SWAPI.API.exe
-C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\SWAPI.API.deps.json
-C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\SWAPI.API.runtimeconfig.json
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\SWAPI.API.dll
-C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\SWAPI.API.pdb
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -13,7 +8,6 @@ C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Microsof
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Microsoft.Extensions.Http.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -21,6 +15,7 @@ C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Swashbuc
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\SWAPI.Core.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\SWAPI.Infrastructure.dll
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\SWAPI.Core.pdb
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\SWAPI.Infrastructure.pdb
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\SWAPI.API.csproj.AssemblyReference.cache
@@ -39,9 +34,6 @@ C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\staticwe
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SWAPI.API.props
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\scopedcss\bundle\SWAPI.API.styles.css
-C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\SWAPI.API.csproj.Up2Date
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\SWAPI.API.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\refint\SWAPI.API.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\SWAPI.API.pdb
-C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\SWAPI.API.genruntimeconfig.cache
-C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\ref\SWAPI.API.dll

@@ -1,0 +1,24 @@
+<div class="starship-list">
+  <div class="starship-list__controls">
+<!--     <input [formControl]="searchCtrl" placeholder="Search starships..." />
+ -->    <select (change)="changeCurrency($any($event.target).value)">
+      <option value="GC">GC</option>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+    </select>
+  </div>
+
+  <app-loader *ngIf="loading()"></app-loader>
+  <div *ngIf="error()" class="starship-list__error">{{ error() }}</div>
+
+  <div class="starship-list__grid" *ngIf="!loading() && !error()">
+    <app-card *ngFor="let s of starships()" class="starship-card">
+      <div class="starship-card__title">{{ s.name }}</div>
+      <div class="starship-card__meta">{{ s.model }} — {{ s.manufacturer }}</div>
+      <div class="starship-card__cost">
+        {{ s.cost_in_credits }}
+      </div>
+      <button (click)="openDetail(s.id)">Details</button>
+    </app-card>
+  </div>
+</div>

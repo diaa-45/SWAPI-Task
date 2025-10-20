@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SWAPI.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c64783cf421d14d3f6d4db8c011bc485eda50886")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c032c65ab943178ad6d1a3d914bb1498dca0c00")]
 [assembly: System.Reflection.AssemblyProductAttribute("SWAPI.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SWAPI.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
