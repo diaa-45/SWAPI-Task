@@ -1,12 +1,14 @@
-<div class="modal" *ngIf="starship()">
-  <div class="modal__content">
+<div class="modal" *ngIf="!loading() && !error()">
+  <app-card class="modal__content">
     <h2>{{ starship()?.name }}</h2>
     <p><strong>Model:</strong> {{ starship()?.model }}</p>
     <p><strong>Manufacturer:</strong> {{ starship()?.manufacturer }}</p>
-    <p><strong>Cost:</strong> {{ starship()?.cost_in_credits }} </p>
+    <p><strong>Cost:</strong> {{ starship()?.cost_in_credits }} <strong>{{ starship()?.currency }}</strong></p>
     <button (click)="close()">Close</button>
-  </div>
+  </app-card>
 </div>
 
-<div *ngIf="loading()">Loading...</div>
+<!-- <div *ngIf="loading()">Loading...</div> -->
+<app-loader *ngIf="loading()"></app-loader>
+
 <div *ngIf="error()">{{ error() }}</div>

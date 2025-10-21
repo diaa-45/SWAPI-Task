@@ -16,9 +16,9 @@
       <div class="starship-card__title">{{ s.name }}</div>
       <div class="starship-card__meta">{{ s.model }} — {{ s.manufacturer }}</div>
       <div class="starship-card__cost">
-        {{ s.cost_in_credits }}
+        {{ s.cost_in_credits }} <strong>{{s.currency}}</strong>
       </div>
-      <button (click)="openDetail(s.id)">Details</button>
+      <button (click)="openDetail(s)">Details</button>
     </app-card>
   </div>
 </div>

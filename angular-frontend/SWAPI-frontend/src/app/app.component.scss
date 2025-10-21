@@ -59,8 +59,44 @@ footer {
   text-align: center;
   padding: 1rem;
   border-top: 2px solid #45a29e;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   position: relative;
   bottom: 0;
   width: 100%;
+}
+
+
+.email-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background: linear-gradient(135deg, #0078d7, #00b4d8);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: linear-gradient(135deg, #005fa3, #0090b8);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+
+  &:focus {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
+  }
+
+  &::before {
+    content: "✉️";
+    font-size: 1.2rem;
+  }
 }

@@ -9,5 +9,5 @@ import { StarshipListComponent } from './features/starship-list/starship-list.co
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'SWAPI-frontend';
+  title = 'SWAPI Website';
 }

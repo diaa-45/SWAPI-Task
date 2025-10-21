@@ -1,6 +1,6 @@
 import { Component, Output, EventEmitter, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { StarshipService } from '../../core/services/starship.service';
 import { Starship } from '../../core/models/starship.model';
 import { LoaderComponent } from '../../shared/components/loader/loader.component';
@@ -17,10 +17,8 @@ export class StarshipDetailComponent implements OnInit {
   loading = signal<boolean>(false);
   error = signal<string | null>(null);
 
-  // Event to notify parent to close modal
-  @Output() closeModal = new EventEmitter<void>();
 
-  constructor(private route: ActivatedRoute, private starshipService: StarshipService) {}
+  constructor(private route: ActivatedRoute,private router: Router, private starshipService: StarshipService) {}
 
   ngOnInit() {
     const id = Number(this.route.snapshot.paramMap.get('id'));
@@ -42,6 +40,6 @@ export class StarshipDetailComponent implements OnInit {
   }
 
   close() {
-    this.closeModal.emit();
+    this.router.navigate(['/starships']);
   }
 }
