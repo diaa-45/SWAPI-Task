@@ -37,3 +37,11 @@ C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\scopedcs
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\SWAPI.API.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\refint\SWAPI.API.dll
 C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\SWAPI.API.pdb
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\appsettings.json
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\SWAPI.API.deps.json
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\SWAPI.API.runtimeconfig.json
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\bin\Debug\net8.0\SWAPI.API.pdb
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\SWAPI.API.csproj.Up2Date
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\SWAPI.API.genruntimeconfig.cache
+C:\Users\deyaa\source\repos\SWAPI Task\SWAPI\SWAPI.API\obj\Debug\net8.0\ref\SWAPI.API.dll

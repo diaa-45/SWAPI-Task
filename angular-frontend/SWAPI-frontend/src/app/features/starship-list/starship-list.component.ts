@@ -26,17 +26,17 @@ export class StarshipListComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    //this.loadStarships();
+    this.loadStarships();
     
-    this.loading.set(true);
+    /* this.loading.set(true);
     this.error.set(null);
     this.starshipService.getStarships(this.currency()).subscribe({
       next: (items) => { this.starships.set(items); this.loading.set(false); },
       error: () => { this.error.set('Failed to load starships'); this.loading.set(false); }
-    });
+    }); */
   }
   
-  /* loadStarships() {
+  loadStarships() {
     this.loading.set(true);
     this.error.set(null);
     this.starshipService.getStarships(this.currency()).subscribe({
@@ -44,13 +44,24 @@ export class StarshipListComponent implements OnInit {
       error: () => { this.error.set('Failed to load starships'); this.loading.set(false); }
     });
   }
- */
+
   changeCurrency(c: string) {
     this.currency.set(c);
-    //this.loadStarships();
+    this.loadStarships();
   }
 
-  openDetail(id: number) {
+  openDetail(starship: Starship) {
+  const id = this.extractIdFromUrl(starship.url);
+  if (id) {
     this.router.navigate(['/starships', id]);
+  } else {
+    console.error('Invalid starship URL:', starship.url);
   }
+}
+
+private extractIdFromUrl(url: string): string | null {
+  const match = url.match(/\/(\d+)\/$/);
+  return match ? match[1] : null;
+}
+
 }
